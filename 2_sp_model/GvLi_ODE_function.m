@@ -29,7 +29,7 @@ MET = y(6);
 
 L_li = alpha_LB* MNZint_lb/(EC50_LB + MNZint_lb);
 L_gv = alpha_GV* MNZint_gv/(EC50 + MNZint_gv);
-cell_vol = 1E-7;
+cell_vol = 1E-8;
 cult_vol = 0.5;
 pc_Li = MNZint_lb/(LB*cult_vol);
 pc_Gv = MNZint_gv/(GV*cult_vol);
