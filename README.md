@@ -4,4 +4,4 @@ Open Example_Usage.m to replicate figures from our manuscript, it requires the f
 
 Data sets necessary to replicate reults can be found in the Data_sets folder, which has the in vitro co-culture validation in Fig1_figS4_Validation_Data.csv, data used to parameterize the model in figS1_parameterization.txt and figS2_growth.xlsx, and the subset of the clinical data needed to replicate results is in Clinical_Validation_Data.xlsx.
 
-LHS models are in the LHS_sampling_models folder, which uses code developed by the Kirschner Group at the University of Michigan.
+LHS-PRCC models are in the LHS_sampling_models folder, which uses code developed by the Kirschner Group at the University of Michigan (http://malthus.micro.med.umich.edu/lab/usadata/).
