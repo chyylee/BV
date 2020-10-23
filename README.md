@@ -1,6 +1,9 @@
-# Manuscript Code and Data
+# Code for "Quantitative modeling predicts mechanistic links between pre-treatment microbiome composition and metronidazole efficacy in bacterial vaginosis"
 
-Code was written in Matlab 2018b.
+Arnold Lab, University of Michigan
+Christina Lee, PhD Candidate
+Matlab 2018b
+Mac OS
 
 The Example_Usage.m replicates figures from the manuscript, it requires the files GvLi_ODE_function.m, Sense_1D_Params.m, Sense_1D_ratio.m, surface_data.m, parameters.m, params.mat. All of these files are in the 2_sp_model folder.
 
