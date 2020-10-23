@@ -1,24 +1,7 @@
-% The ODEs for a simple predator/prey model with 2 equations and 4 parameters.
-% This model is from page 6, section 3.1 of "A Methodology For Performing
-% Global Uncertainty And Sensitivity Analysis In Systems Biology", Marino, et.
-% al., Journal of Theoretical Biology, 2008-09-07, doi:
-% 10.1016/j.jtbi.2008.04.011.
-
-% From the above cited paper, with y(1) = Q and y(2) = P.
-
-% It has two state variables (Q, P) and several parameters. Q represents the
-% density of prey, P represents the density of predators, α is the intrinsic
-% rate of prey population increase, β is the predation rate coefficient, σ is
-% the predator mortality rate, and δ is the reproduction rate of predators per
-% prey consumed.
-
-% This file can be used as a template for creating a new ODE model. To do so
-% copy this file and edit it, replacing the predator/prey parameters and
-% equations with those for the new model.
-%
-% When creating a new model, you will also need to copy and edit file
-% lhs_ode_predator_prey_settings_new.m to create a settings file for the new
-% model, to define the model parameters values, initial conditions, etc.
+% Model structure 3: 4 species model with no interactions
+% This model assumes no microbe-microbe interactions and simply that each
+% bacteria is internalizing MNZ. There are 2 BV-associated bacteria, and 2
+% LB spp.
 
 function dy = Noint_4sp_ode(t, y, params)
 

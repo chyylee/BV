@@ -1,4 +1,6 @@
-% Four Species Model with Interactions
+% Model structure 4: 4 speices model with interactions
+% This model includes interspecies interactions for 4 species that can
+% uptake MNZ.
 
 function dy = wint_4sp_ode(t, y, params)
 
